@@ -1,0 +1,23 @@
+const text_list = [
+    "The land which would become Israel was for centuries part of the Turkish-ruled Ottoman Empire. After World War One and the collapse of the empire, territory known as Palestine - the portion of which west of the River Jordan was also known as the land of Israel by Jews - was marked out and assigned to Britain to administer by the victorious allied powers (soon after endorsed by the League of Nations). The terms of the mandate entrusted Britain with establishing in Palestine \"a national home for the Jewish people\", so long as doing so did not prejudice the civil and religious rights of non-Jewish communities there."
+    ,"The rise of Palestinian Arab nationalism coupled with the rapid growth of Palestine's smaller Jewish population - especially after the advent of Nazism in the 1930s - saw an escalation in Arab-Jewish violence in Palestine. Britain handed the problem to the United Nations, which in 1947 proposed partitioning Palestine into two states - one Jewish, one Arab - with the Jerusalem-Bethlehem area to become an international city. The plan was accepted by Palestine's Jewish leadership but rejected by Arab leaders."
+    ,"The Jewish leadership in Palestine declared the establishment of the State of Israel on 14 May 1948, the moment the British mandate terminated, though without announcing its borders. The following day Israel was invaded by five Arab armies, marking the start of Israel's War of Independence. The fighting ended in 1949 with a series of ceasefires, producing armistice lines along Israel's frontiers with neighbouring states, and creating the boundaries of what became known as the Gaza Strip (occupied by Egypt) and East Jerusalem and the West Bank (occupied by Jordan). The surrounding Arab states refused to recognise Israel, meaning its borders remained unset."
+    ,"The biggest change to Israel's frontiers came in 1967, when the conflict known as the Six Day War left Israel in occupation of the Sinai peninsula, the Gaza Strip, the West Bank, East Jerusalem and most of the Syrian Golan Heights - effectively tripling the size of territory under Israel's control. Israel effectively annexed East Jerusalem - claiming the whole of the city as its capital - and the Golan Heights. These moves were not recognised by the international community, until the US changed its official position on the matter under the Trump administration, becoming the first major power to do so. Overwhelmingly, international opinion continues to consider East Jerusalem and the Golan Heights as occupied territory."
+    ,"One of Israel's land borders was formalised for the first time in 1979, when Egypt became the first Arab country to recognise the Jewish state. Under the treaty, Israel's border with Egypt was set and Israel withdrew all its forces and settlers from the Sinai, a process which was completed in 1982. That left Israel in occupation of the Gaza Strip, East Jerusalem and the Golan Heights, with its frontiers (excluding that of Egypt) still delineated by the 1949 armistice lines."
+    ,"In 1994, Jordan became the second Arab state to recognise Israel, formalising its long border with the Jewish state in the process. While there has not yet been a peace treaty between Israel and Lebanon, the two countries' 1949 armistice line serves as Israel's de facto northern border, while Israel's border with Syria remains unsettled. Similarly, Israel has had a de facto border with Gaza since it pulled its troops and settlers out in 2005, but Gaza and the West Bank are considered a single occupied entity by the UN, and the official borders have not yet been determined. The final status and contours of the West Bank, Gaza and East Jerusalem are meant to be decided in negotiations between Israel and the Palestinians living there under Israeli occupation, but decades of on-off talks have so far proved fruitless. "
+
+]
+const url_list = [
+    "https://ichef.bbci.co.uk/news/976/cpsprodpb/16CDF/production/_114370439_01_british_mandate_palestine_640-nc.png.webp",
+    "https://ichef.bbci.co.uk/news/976/cpsprodpb/1137/production/_114370440_02_palestine_un_partition_plan_640-nc.png.webp",
+    "https://ichef.bbci.co.uk/news/976/cpsprodpb/5788/production/_114380422_03_1949_armistice_line_640-nc.png.webp",
+    "https://ichef.bbci.co.uk/news/976/cpsprodpb/5F57/production/_114370442_04_after_the_1967_war_640-nc.png.webp",
+    "https://ichef.bbci.co.uk/news/976/cpsprodpb/8667/production/_114370443_05_1982_after_israel-egypt_peace_treaty_640-nc.png.webp",
+    "https://ichef.bbci.co.uk/news/976/cpsprodpb/D487/production/_114370445_06_west_bank_today_640-nc-3.png.webp"
+  ]
+const title_list = [
+    "1922",
+    "1947"
+]
+
+  export {url_list, text_list, title_list}
