@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import  {url_list, text_list, title_list} from "../variables.js";
+import  {url_list, text_list, text2_list, title_list, url2_list} from "../variables.js";
 import Slider from '@mui/material/Slider';
 
 import '../styles/Home.css'
@@ -16,9 +16,9 @@ function Home() {
 
   //<input onMouseMove={changeCounter} type="range" id="myRange" min="0" max="10" step="1" class="slider"></input>
   return (
-    <div>
+    
     <body id="body" style={{ backgroundColor: '#FFFFFF' }}>
-          <h1 className="heading"> Timeline of Israel's Borders </h1>
+         
           <h1> {}</h1>
           <div className = "sliderdiv"><Slider
             defaultValue={1}
@@ -28,20 +28,22 @@ function Home() {
             step={1}
             marks
             min={0}
-            max={10}
+            max={11}
             onChange ={(_,v)=>setCounter(v)}
           /></div>
           <div className="parentdiv">
 
-            <div className="division1" style={{ backgroundColor: '	#0038b8' }}>
-              <img src={url_list[counter]} alt="" width="640px" height="640px"></img>
+            <div className="division1" style={{ backgroundColor: '	#5C5CFF' }}>
+              <img src={url_list[counter]} className = "bigImg" alt="" ></img>
             </div>
-            <div className="division2" style={{ width: '35%', color: 'black' }}>
-              <h3>{text_list[counter]}</h3>
+            <div className="division2" style = {{backgroundColor: '#D3D3D3'}}>
+              <h3 style={{ color: 'black' }}>{text_list[counter]}</h3>
+              <img src={url2_list[counter]} className = "smImg" alt="" ></img>
+              <h3 style={{ color: 'black' }}>{text2_list[counter]}</h3>
             </div>
           </div>
         </body>
-    </div>
+    
   )
 }
 
