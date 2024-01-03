@@ -23,7 +23,7 @@ function Navbar() {
             </div>
         </div>
         <div className ="headingdiv">
-        <h1 className="heading"> Timeline of Israel's Borders </h1>
+        <h1 className="heading"> Timeline of Israel/Palestine's Borders </h1>
         </div>
         <div className = "rightSide">
           <Link to="/"> Home </Link>
